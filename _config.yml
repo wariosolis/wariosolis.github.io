@@ -1,0 +1,50 @@
+# Site settings
+title: Mario Solis - Full Stack Developer
+description: "A blog about wariosolis ..."
+baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
+url: "http://victorvoid.github.io/space-jekyll-template/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+# User settings
+username: wariosolis
+user_title: Wario Solis
+email: wariosolis@gmail.com
+twitter_username: wariosolis
+github_username:  wariosolis
+gplus_username:  WarioSolisgt
+disqus_username: wariosolis
+profile_picture: https://avatars2.githubusercontent.com/u/1869038?v=4&u=6d40ab20d71a5aa6933fa3009e3d1cabbf46ab10&s=400
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+links:
+  - title: home
+    url: /
+  - title: my posts
+    url: /posts
+  - title: series
+    url: /series
+  - title: tags
+    url: /tags
+  - title: about me
+    url: /about
+# projects in header index
+projects:
+  - name: gorum
+    url: https://github.com/opennut/gorum
+  - name: stack-blog
+    url: https://github.com/opennut/stack-blog
+  - name: keepassweb
+    url: https://github.com/wariosolis/keepassweb
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
