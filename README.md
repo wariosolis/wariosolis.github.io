@@ -1,0 +1,1 @@
+# wariosolis.github.io
