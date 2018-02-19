@@ -47,5 +47,7 @@ projects:
     url: https://github.com/opennut/stack-blog
   - name: keepassweb
     url: https://github.com/wariosolis/keepassweb
+  - name: Dokumen
+    url: https://github.com/TharixGT/Dokumen
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
